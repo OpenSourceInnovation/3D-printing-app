@@ -11,3 +11,4 @@ def home(request):
     considered as app has been successfully configured and started.'''
     
     return Response({"message":"This is homepage"})
+
