@@ -1,0 +1,11 @@
+{
+  "name": "3d_printing",
+  "version": "1.0.0",
+  "description": "An Application for 3d printing portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
