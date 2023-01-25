@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import { HomePage } from '@/component/landing_page/home'
+import Head from "next/head";
+import { Inter } from "@next/font/google";
+import { HomePage } from "@/component/landing_page/home";
+import NavBar from "@/component/Navbar";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
