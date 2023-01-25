@@ -8,7 +8,7 @@ export const HomePage = () => (
         </ul>
         <ul className={style.designers}>
             <h2 className={style.forcompanies}>For Designers</h2>
-            <p className={style.para}>Join Us take a look at projects and start working. Its time to groww.</p>
+            <p className={style.para}>Join us take a look at projects and start working. Its time to groww.</p>
             <a className={style.designerlgnbtn} href='/designers'>Login As Guest</a>
         </ul>
     </div>
