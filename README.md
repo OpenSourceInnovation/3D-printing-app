@@ -14,11 +14,11 @@ A portal that allows manufacturing companies to upload 3D models of their produc
 
 ## Basic Tech:
 ### Frontend:
-- A front-end framework such as React or Svelte can be used to develop the front-end of the app.
+- A front-end framework such as React or Angular can be used to develop the front-end of the app.
 - 3D Model Viewer: A 3D model viewer library such as Three.js or Babylon.js can be used to enable users to view and interact with 3D models in the app.
 
 ### Backend: 
-- Web Framework: A web framework such as Express.js can be used to develop the backend of the app.
+- Web Framework: A web framework such as Ruby on Rails, Django, or Express.js can be used to develop the backend of the app.
 
 ### Database:  
 - Cloud services: Cloud services such as AWS, Azure or Google Cloud can be used to host the application, store files and manage the data.
