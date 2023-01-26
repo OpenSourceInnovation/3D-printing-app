@@ -31,7 +31,7 @@ function CompanyHome() {
                 <div>Date: 27/01/2023 00:22:12</div>
             </div>
             </Table.Cell>
-          <Table.Cell><Link className={stylecompanyhome.view} href='/'>View</Link></Table.Cell>
+          <Table.Cell><Link className={stylecompanyhome.view} href='/company/company-home/earth-3d'>View</Link></Table.Cell>
         </Table.Row>
       </Table.Body>
     </Table>
