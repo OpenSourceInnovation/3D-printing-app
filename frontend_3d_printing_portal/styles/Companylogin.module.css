@@ -1,0 +1,64 @@
+.conatiner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(141, 174, 141),white);
+}
+
+.box {
+    display: -moz-box;
+    position: relative;
+    background-color: white;
+    width: 32%;
+    height: 31%;
+    left: 32%;
+    top: 37%;
+    box-shadow: -9px 117px 77px 61px rgba(172, 131, 210, 0.26);
+    border-radius: 12px;
+    -moz-box-orient: horizontal;
+  }
+
+.emailbox{
+    width: max-content;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 12px;
+    position: relative;
+    left: 23%;
+    top: 19%;
+    width: 250px;
+    height: 30px;
+    margin: 4px;
+    resize: none;
+    overflow: hidden;
+}
+
+.submit{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    background: #84d464;
+  background-image: -webkit-linear-gradient(top, #84d464, #2980b9);
+  background-image: -moz-linear-gradient(top, #84d464, #2980b9);
+  background-image: -ms-linear-gradient(top, #84d464, #2980b9);
+  background-image: -o-linear-gradient(top, #84d464, #2980b9);
+  background-image: linear-gradient(to bottom, #84d464, #2980b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 8px 6px 7px #666666;
+  -moz-box-shadow: 8px 6px 7px #666666;
+  box-shadow: 8px 6px 7px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.submit:hover {
+    background: #3c89fc;
+    text-decoration: none;
+  }
