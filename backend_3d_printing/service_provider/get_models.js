@@ -6,7 +6,6 @@ router.get('/get', async (req, res) => {
 
     const _collection = await mongodbCollection("models", "models");
     const cursor = await _collection.find({}).toArray();
-    console.log(cursor);
     res.send(cursor);
 
 });

@@ -20,6 +20,9 @@ app.use('/serviceprovider', serviceProvider);
 const getAllModules = require('./service_provider/get_models');
 app.use('/models', getAllModules);
 
+//importing company add model
+const companyModel = require('./company/add_model');
+app.use('/company/model', companyModel);
 
 //listening to the port
 app.listen(3000);
