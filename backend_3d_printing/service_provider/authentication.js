@@ -3,6 +3,7 @@ const { mongodbCollection } = require('../mongodb_instance');
 const router = express.Router();
 
 
+// guest login for the service provider using the email
 router.get('/auth/guest/:email', async (req, res) => {
 
     email = req.params.email;

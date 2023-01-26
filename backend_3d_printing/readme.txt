@@ -5,8 +5,8 @@ steps to run the code
 a) open the cmd
 b) run the command 
    'npm install express nodemon mongoose body-parser cors mongodb'
-   this will install the dependencies
+   this will install all the dependencies used in the project
 c) to run the app on localhost run the command
    'npm start'
 d) to change the port in case it interfere with the frontend localhost
-    go to app.js > end_of_file > change the port in the line app.listen(****)
+    go to app.js > end_of_file > change the port in the line ```app.listen(****)```

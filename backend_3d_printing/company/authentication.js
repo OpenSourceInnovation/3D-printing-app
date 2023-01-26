@@ -2,7 +2,7 @@ const express = require('express');
 const { mongodbCollection } = require('../mongodb_instance');
 const router = express.Router();
 
-
+// guest login for the company using the email
 router.get('/auth/guest/:email', async (req, res) => {
 
     email = req.params.email;
