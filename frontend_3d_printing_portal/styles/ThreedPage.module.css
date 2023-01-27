@@ -1,0 +1,42 @@
+.sperater{
+    position: relative;
+    top:30%;
+}
+.maain{
+    background-color: black;
+}
+
+.globe {
+    display: grid;
+    place-items: center;
+    height: 290px;
+    cursor: grabbing;
+  }
+
+  .name{
+    font-family: Georgia, serif;
+font-size: 22px;
+letter-spacing: -0.6px;
+word-spacing: 0.6px;
+color: #ffffff;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+  }
+
+.detail{
+position: relative;
+top: auto;
+font-family: Georgia, serif;
+font-size: 15px;
+letter-spacing: -0.2px;
+word-spacing: 1.4px;
+color: #e11010;
+font-weight: 400;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}

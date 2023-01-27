@@ -11,13 +11,17 @@
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@next/font": "13.1.5",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "@react-three/drei": "^9.56.2",
+    "@react-three/fiber": "^8.10.1",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
-    "next": "13.1.5",
+    "next": "^13.1.5",
     "next-google-fonts": "^2.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "three": "^0.149.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
