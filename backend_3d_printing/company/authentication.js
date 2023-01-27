@@ -2,18 +2,33 @@ const express = require('express');
 const { mongodbCollection } = require('../mongodb_instance');
 const router = express.Router();
 
+function isEmail(emailAdress){
+    let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+  if (emailAdress.match(regex)) 
+    return true; 
+
+   else 
+    return false; 
+}
+
 // guest login for the company using the email
 router.get('/auth/guest/:email', async (req, res) => {
 
     email = req.params.email;
-    const _collection = await mongodbCollection("company", "authentication");
-    var cursor = await _collection.findOne({"email" : email});
-    if(cursor == null){
-        await _collection.insertOne({"email" : email});
-        cursor = await _collection.findOne({"email" : email});
+    if(!isEmail(email)){
+        res.send({"error" : "email is not validate"});
     }
+    else{
+        const _collection = await mongodbCollection("company", "authentication");
+        var cursor = await _collection.findOne({"email" : email});
+        if(cursor == null){
+            await _collection.insertOne({"email" : email});
+            cursor = await _collection.findOne({"email" : email});
+        }
 
-    res.send(cursor);
+        res.send(cursor);
+    }
 
 });
 
