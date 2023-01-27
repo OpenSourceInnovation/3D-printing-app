@@ -1,0 +1,20 @@
+{
+  "name": "3d_printing",
+  "version": "1.0.0",
+  "description": "An Application for 3d printing portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {}
+}

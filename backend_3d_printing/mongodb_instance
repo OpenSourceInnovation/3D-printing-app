@@ -1,0 +1,14 @@
+const { MongoClient } = require('mongodb');
+
+const url = 'mongodb+srv://threedprinting:threedprinting@three-d-printing-model.uvpiynj.mongodb.net/?retryWrites=true&w=majority';
+const client = new MongoClient(url);
+
+async function mongodbCollection(_cluster, _collection) {
+    await client.connect();
+    const cluster = client.db(_cluster);
+    const ccollection = cluster.collection(_collection);
+    const cursor = await ccollection.findOne({"email" : "abcd@gmail.com"});
+    return ccollection;
+}
+
+exports.mongodbCollection = mongodbCollection;

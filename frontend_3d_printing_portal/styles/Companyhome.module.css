@@ -1,0 +1,51 @@
+.sperater{
+    position: relative;
+    top:18%;
+}
+.name{
+    font-family: Georgia, serif;
+font-size: 22px;
+letter-spacing: -0.6px;
+word-spacing: 0.6px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+.detail{
+    font-family: Georgia, serif;
+font-size: 15px;
+letter-spacing: -0.2px;
+word-spacing: 1.4px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+
+.view{
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 13px 24px 13px 24px;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+.view:hover {
+    background: #6fc752;
+    background-image: -webkit-linear-gradient(top, #6fc752, #3498db);
+    background-image: -moz-linear-gradient(top, #6fc752, #3498db);
+    background-image: -ms-linear-gradient(top, #6fc752, #3498db);
+    background-image: -o-linear-gradient(top, #6fc752, #3498db);
+    background-image: linear-gradient(to bottom, #6fc752, #3498db);
+    text-decoration: none;
+  }
